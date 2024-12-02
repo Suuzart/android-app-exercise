@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="lanches">
+
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/l1"
+                    android:icon="@drawable/baseline_room_service_24"
+                    android:title="Criançada"/>
+
+                <item
+                    android:id="@+id/l2"
+                    android:icon="@drawable/baseline_room_service_24"
+                    android:title="Arrasa dieta"/>
+
+                <item
+                    android:id="@+id/l3"
+                    android:icon="@drawable/baseline_room_service_24"
+                    android:title="Porcalhão"/>
+
+            </group>
+        </menu>
+
+    </item>
+
+    <item
+        android:title="acompanhamentos">
+
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/a1"
+                    android:icon="@drawable/baseline_room_service_24"
+                    android:title="Fritas"/>
+
+                <item
+                    android:id="@+id/a2"
+                    android:icon="@drawable/baseline_room_service_24"
+                    android:title="Fristas caseiras da casa"/>
+
+            </group>
+        </menu>
+
+    </item>
+
+    <item
+        android:title="bebidas">
+
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/b1"
+                    android:icon="@drawable/baseline_room_service_24"
+                    android:title="Suco de polpa"/>
+
+                <item
+                    android:id="@+id/b2"
+                    android:icon="@drawable/baseline_room_service_24"
+                    android:title="Refrigernate"/>
+
+            </group>
+        </menu>
+
+    </item>
+
+    <item
+        android:title="Gorjeta">
+
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/g1"
+                    android:icon="@drawable/baseline_person_24"
+                    android:title="5%"/>
+
+                <item
+                    android:id="@+id/g2"
+                    android:icon="@drawable/baseline_person_24"
+                    android:title="10%"/>
+
+                <item
+                    android:id="@+id/g3"
+                    android:icon="@drawable/baseline_person_24"
+                    android:title="15%"/>
+
+                <item
+                    android:id="@+id/g4"
+                    android:icon="@drawable/baseline_person_24"
+                    android:title="20%"/>
+
+            </group>
+        </menu>
+
+    </item>
+
+</menu>

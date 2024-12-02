@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".FragCardapio"
+    android:background="@color/bege"
+    android:id="@+id/frag_card">
+
+    <FrameLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/vinho_forte"
+        android:orientation="horizontal"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <TextView
+            android:id="@+id/appHeader"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:text="Cardápio"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="48sp" />
+    </FrameLayout>
+
+    <ImageButton
+        android:id="@+id/abre_menuc"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:background="@color/vinho_forte"
+        android:scaleType="fitCenter"
+        android:src="@drawable/baseline_dehaze_24"
+        app:tint="@color/black"/>
+
+    <FrameLayout
+        android:id="@+id/flc1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/linearLayout2"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp">
+
+        <ImageButton
+            android:id="@+id/bttC1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitStart"
+            android:src="@drawable/outline_room_service_24"
+            android:elevation="50dp"/>
+
+        <TextView
+            android:id="@+id/txtC1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/lanche_1"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:elevation="50dp"/>
+
+        <TextView
+            android:id="@+id/txtC11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_gravity="end|center"
+            android:elevation="50dp"
+            android:text="R$ 22,90"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/flc2"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/linearLayout2"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="94dp"
+        android:layout_marginEnd="16dp">
+
+        <ImageButton
+            android:id="@+id/bttC2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitStart"
+            android:src="@drawable/outline_room_service_24"
+            android:elevation="50dp"/>
+
+        <TextView
+            android:id="@+id/txtC2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/lanche_2"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:elevation="50dp"/>
+
+        <TextView
+            android:id="@+id/txtC22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_gravity="end|center"
+            android:elevation="50dp"
+            android:text="R$ 38,90"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/flc3"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/linearLayout2"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="164dp"
+        android:layout_marginEnd="16dp">
+
+        <ImageButton
+            android:id="@+id/bttC3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitStart"
+            android:src="@drawable/outline_room_service_24"
+            android:elevation="50dp"/>
+
+        <TextView
+            android:id="@+id/txtC3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/lanche_3"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:elevation="50dp"/>
+
+        <TextView
+            android:id="@+id/txtC33"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_gravity="end|center"
+            android:elevation="50dp"
+            android:text="R$ 32,90"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/traco"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_below="@+id/flc3"
+        android:layout_marginTop="30dp"
+        android:background="@color/marromarelo"
+        android:orientation="horizontal" />
+
+    <FrameLayout
+        android:id="@+id/flc4"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/traco"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="16dp">
+
+        <ImageButton
+            android:id="@+id/bttC4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:elevation="50dp"
+            android:scaleType="fitStart"
+            android:src="@drawable/outline_room_service_24" />
+
+        <TextView
+            android:id="@+id/txtC4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:elevation="50dp"
+            android:text="@string/acompanhamento_1"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txtC44"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_gravity="end|center"
+            android:elevation="50dp"
+            android:text="R$ 25,00"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/flc5"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/traco"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="16dp">
+
+        <ImageButton
+            android:id="@+id/bttC5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:elevation="50dp"
+            android:scaleType="fitStart"
+            android:src="@drawable/outline_room_service_24" />
+
+        <TextView
+            android:id="@+id/txtC5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:elevation="50dp"
+            android:text="@string/acompanhamento_2"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txtC55"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_gravity="end|center"
+            android:elevation="50dp"
+            android:text="R$ 29,90"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/traco2"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_below="@+id/flc5"
+        android:layout_marginTop="30dp"
+        android:background="@color/marromarelo"
+        android:orientation="horizontal" />
+
+    <FrameLayout
+        android:id="@+id/flc6"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/traco2"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="16dp">
+
+        <ImageButton
+            android:id="@+id/bttC6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:elevation="50dp"
+            android:scaleType="fitStart"
+            android:src="@drawable/outline_room_service_24" />
+
+        <TextView
+            android:id="@+id/txtC6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:elevation="50dp"
+            android:text="@string/bebida_1"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txtC66"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_gravity="end|center"
+            android:elevation="50dp"
+            android:text="R$ 12,00"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/flc7"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/traco2"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="16dp">
+
+        <ImageButton
+            android:id="@+id/bttC7"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:elevation="50dp"
+            android:scaleType="fitStart"
+            android:src="@drawable/outline_room_service_24" />
+
+        <TextView
+            android:id="@+id/txtC7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:elevation="50dp"
+            android:text="@string/bebida_2"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txtC77"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_gravity="end|center"
+            android:elevation="50dp"
+            android:text="R$ 8,00"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+    </FrameLayout>
+
+</RelativeLayout>

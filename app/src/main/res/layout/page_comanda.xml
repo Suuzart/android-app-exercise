@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/menu_mesas"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bege"
+    tools:context=".PagComanda">
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:background="@color/vinho_forte"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/bttEncerrar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="32dp"
+        android:scaleType="fitStart"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:text="Encerrar Comanda"
+        android:textColor="@color/white"
+        android:background="@color/vinho_forte"/>
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="180dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:id="@+id/pedidos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/lan1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Criançada\nQuantidade\nPreço"
+                android:textAlignment="textStart" />
+
+            <Button
+                android:id="@+id/lan2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Arrasa dieta\nQuantidade\nPreço"
+                android:textAlignment="textStart" />
+
+            <Button
+                android:id="@+id/lan3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Porcalhão\nQuantidade\nPreço"
+                android:textAlignment="textStart" />
+
+            <Button
+                android:id="@+id/acom1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fritas\nQuantidade\nPreço"
+                android:textAlignment="textStart" />
+
+            <Button
+                android:id="@+id/acom2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fritas da casa\nQuantidade\nPreço"
+                android:textAlignment="textStart" />
+
+            <Button
+                android:id="@+id/beb1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Suco de polpa\nQuantidade\nPreço"
+                android:textAlignment="textStart"
+
+                />
+
+            <Button
+                android:id="@+id/beb2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Refrigerante\nQuantidade\nPreço"
+                android:textAlignment="textStart" />
+
+            <Button
+                android:id="@+id/Gorj"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gorjeta\nn%\nvalor"
+                android:textAlignment="textStart" />
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/addPedido"
+        android:layout_width="280dp"
+        android:layout_height="60dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginBottom="104dp"
+        android:drawableStart="@android:drawable/ic_menu_add"
+        android:drawablePadding="4dp"
+        android:drawableTint="@color/black"
+        android:background="@color/marromarelo"
+        android:text="adicionar pedido"
+        android:onClick="Popup"/>
+
+    <TextView
+        android:id="@+id/mNome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_weight="1"
+        android:text="Mesa N"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="48sp"
+        app:layout_constraintBottom_toBottomOf="@+id/linearLayout2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/linearLayout2" />
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="8dp"
+        android:scaleType="centerInside"
+        app:tint="@color/black"
+        app:layout_constraintStart_toStartOf="@+id/linearLayout2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/mesa_icon" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">CalcGorjeta</string>
+    <!-- titulos -->
+    <string name="gar_om_s">Garçom\'s</string>
+    <!-- botoes -->
+    <string name="criar">Criar</string>
+    <string name="login">Login</string>
+    <!-- menu -->
+    <string name="abrir">Menu</string>
+    <string name="fechar">fechar</string>
+
+    <!-- itens relacionados ao cardápio -->
+    <string name="lanche_1">Criançada</string>
+    <string name="pl_1">22.90</string>
+    <string name="ql1">0</string>
+
+    <string name="lanche_2">Arrasa dieta</string>
+    <string name="pl_2">38.90</string>
+    <string name="ql2">0</string>
+
+    <string name="lanche_3">Porcalhão</string>
+    <string name="pl_3">32.90</string>
+    <string name="ql3">0</string>
+
+    <string name="acompanhamento_1">Fritas</string>
+    <string name="pa_1">25.00</string>
+    <string name="qa1">0</string>
+
+    <string name="acompanhamento_2">Fritas caseiras da casa</string>
+    <string name="pa_2">29.90</string>
+    <string name="qa2">0</string>
+
+    <string name="bebida_1">Suco de polpa</string>
+    <string name="pb_1">12.00</string>
+    <string name="qb1">0</string>
+
+    <string name="bebida_2">Refrigerante</string>
+    <string name="pb_2">9.90</string>
+    <string name="qb2">0</string>
+
+</resources>
